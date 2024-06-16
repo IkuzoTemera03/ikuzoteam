@@ -54,12 +54,6 @@
             <div class="col-md-4 col-sm-6 col-xs-12 pe-0">
                 <ul class="social-icons">
                     <li><a class="github" href="https://github.com/IkuzoTemera03"><i class="fa fa-github"></i></a></li>
-                    <li><a class="twitter" href="https://twitter.com/IkuzoTemera03"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a class="instagram" href="https://www.instagram.com/telkomuniversity/"><i
-                                class="fa fa-instagram"></i></a></li>
-                    <li><a class="linkedin" href="https://www.linkedin.com/school/telkom-university/"><i
-                                class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>

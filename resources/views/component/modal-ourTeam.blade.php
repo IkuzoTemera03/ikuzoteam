@@ -25,7 +25,7 @@
                         <div class="carousel-item profile-list active">
                             <div class="profile-teams">
                                 <h2 style="text-align: center; color: #48CAE4;">Project Lead</h2>
-                                <img src="{{ asset('iamges/tim/') }}" alt="Foto Arrini Khirofati Jannah" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #48CAE4;">
+                                <img src="{{ asset('images/tim/Arrini.jpg') }}" alt="Foto Arrini Khirofati Jannah" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #48CAE4;">
                                 <table class="table table-borderless">
                                     <tbody>
                                         <tr>
@@ -77,7 +77,7 @@
                         <div class="carousel-item profile-list">
                             <div class="profile-teams">
                                 <h2 style="text-align: center; color: #48CAE4;">Developer</h2>
-                                <img src="{{ asset('iamges/tim/') }}" alt="Foto M. Septian Adi Cahya" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #48CAE4;">
+                                <img src="{{ asset('images/tim/Adi.png') }}" alt="Foto M. Septian Adi Cahya" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #48CAE4;">
                                 <table class="table table-borderless">
                                     <tbody>
                                         <tr>
