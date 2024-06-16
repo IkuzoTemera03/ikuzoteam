@@ -1,7 +1,17 @@
 <style>
-    @media (max-width: 576px){
-        .copyright-text{
-            text-align: center!important;
+    @media (max-width: 576px) {
+        .copyright-text {
+            text-align: center !important;
+            margin-bottom: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .site-footer .container:nth-child(2) .row.w-100 .col-md-8.col-sm-6 {
+            margin-bottom: 20px !important;
+        }
+
+        .site-footer .row>* {
+            padding-right: calc(var(--bs-gutter-x)* .5) !important;
         }
     }
 </style>
@@ -22,11 +32,14 @@
                     <h6 class="h6-link"><a style="text-decoration: none;" data-bs-toggle="modal"
                             data-bs-target="#modalOurTeam">Our Team</a></h6>
                     <ul class="footer-links">
-                        <li><a class="profile-team" data="1" data-bs-toggle="modal" data-bs-target="#modalOurTeam">Arrini
+                        <li><a class="profile-team" data="1" data-bs-toggle="modal"
+                                data-bs-target="#modalOurTeam">Arrini
                                 Khirofati</a></li>
-                        <li><a class="profile-team" data="2" data-bs-toggle="modal" data-bs-target="#modalOurTeam">Maulana
+                        <li><a class="profile-team" data="2" data-bs-toggle="modal"
+                                data-bs-target="#modalOurTeam">Maulana
                                 Malik</a></li>
-                        <li><a class="profile-team" data="3" data-bs-toggle="modal" data-bs-target="#modalOurTeam">M. Septian
+                        <li><a class="profile-team" data="3" data-bs-toggle="modal"
+                                data-bs-target="#modalOurTeam">M. Septian
                                 Adi</a></li>
                     </ul>
                 </div>
@@ -60,7 +73,15 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12 pe-0">
                 <ul class="social-icons">
-                    <li><a class="github" href="https://github.com/IkuzoTemera03"><i class="fa fa-github"></i></a></li>
+                    <li><a class="github" href="https://github.com/IkuzoTemera03" style="margin-left: 0px;"><i
+                                class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a class="twitter" href="https://twitter.com/IkuzoTemera03"><i class="fa fa-twitter"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li><a class="instagram" href="https://www.instagram.com/telkomuniversity/"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/school/telkom-university/"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
