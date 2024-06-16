@@ -1,3 +1,10 @@
+<style>
+    @media (max-width: 576px){
+        .copyright-text{
+            text-align: center!important;
+        }
+    }
+</style>
 <footer class="site-footer">
     <div class="container p-0">
         <div class="row-footer">

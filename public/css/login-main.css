@@ -463,4 +463,16 @@ iframe {
     padding-left: 15px;
     padding-right: 15px;
   }
+  div.container.w-100.ps-5.pe-5{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+  .login100-form.validate-form{
+    padding-left: 5%!important;
+    padding-right: 5%!important;
+  }
+  .wrap-login100{
+    padding-left: 2%!important;
+    padding-right: 2%!important;
+  }
 } 

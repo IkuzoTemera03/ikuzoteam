@@ -380,7 +380,7 @@
                 const allParams = el.querySelectorAll(
                     '.pricing span, .title, .features li span:nth-child(2)');
                 allParams.forEach(param => {
-                    if (param.innerText.includes(this.value)) {
+                    if (param.innerText.toLowerCase().includes(this.value.toLowerCase())) {
                         status = true;
                     }
                 });

@@ -40,7 +40,7 @@
             <form class="login100-form validate-form p-5" action="/edit-ticket/{{ $tiket->id }}" method="POST">
                 @csrf
                 <span class="login100-form-title p-b-49 fw-bold font-ikuzo">
-                    Edit TIket Pengajuan
+                    Edit Tiket Pengajuan
                 </span>
 
                 <div class="wrap-input100 validate-input select-wrap100" data-validate="Email is reauired">
