@@ -71,3 +71,17 @@ php artisan serve
 Setelah berhasil menjalankan aplikasi, halaman beranda Ikuzo akan dapat diakses melalui browser dengan url [http://127.0.0.1:8000](http://127.0.0.1:8000), menampilkan tampilan awal seperti gambar di bawah ini:
 
 <img src="https://github.com/IkuzoTemera03/ikuzoteam/blob/main/documentation/images/tampilan-awal.jpg" alt="Hasil running Ikuzo">
+
+### 8. Login
+
+Setelah berhasil mengakses Ikuzo, silahkan login menggunakan akun berikut ini.
+Email : <b>ikuzoteam@gmail.com</b>
+Password : <b>IkuzoTemera</b>
+
+# Aplikasi Ikuzo Online
+
+Ikuzo dapat diakses secara online melalui link berikut ini [ikuzoteam.000webhostapp.com](https://ikuzoteam.000webhostapp.com/).
+
+Berikut akun untuk login pada Ikuzo yang online (akun sama seperti di localhost).
+Email : <b>ikuzoteam@gmail.com</b>
+Password : <b>IkuzoTemera</b>
