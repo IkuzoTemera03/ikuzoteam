@@ -76,7 +76,7 @@ Setelah berhasil menjalankan aplikasi, halaman beranda Ikuzo akan dapat diakses 
 
 Setelah berhasil mengakses Ikuzo, silahkan login menggunakan akun berikut ini. <br> <br>
 Email : <b>ikuzoteam@gmail.com</b> <br>
-Password : <b>IkuzoTemera</b>
+Password : <b>password</b>
 
 # Aplikasi Ikuzo Online
 
@@ -84,4 +84,4 @@ Ikuzo dapat diakses secara online melalui link berikut ini [ikuzoteam.000webhost
 
 Berikut akun untuk login pada Ikuzo yang online (akun sama seperti di localhost). <br> <br>
 Email : <b>ikuzoteam@gmail.com</b> <br>
-Password : <b>IkuzoTemera</b>
+Password : <b>password</b>
