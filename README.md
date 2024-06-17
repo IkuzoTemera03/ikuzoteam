@@ -1,19 +1,73 @@
-## Cara Menjalankan Projek Ikuzo
+# Panduan Menjalankan Projek Ikuzo
 
-Kelompok kami menggunakan bahasa PHP dengan framework [Laravel](https://https://laravel.com/docs). Sebelum masuk cara menjalakan projek ini, silahkan install PHP minimal versi 8.0, install composer terbaru dan XAMPP terlebih dahulu.
+Projek Ikuzo adalah sebuah aplikasi berbasis web yang dibangun dengan menggunakan bahasa PHP dan framework [Laravel](https://laravel.com/docs). Berikut adalah langkah-langkah untuk menjalankan projek Ikuzo di lingkungan lokal Anda.
 
-Berikut cara untuk menjalankan projek Ikuzo:
-- Install [source code](https://github.com/IkuzoTemera03/ikuzoteam/archive/refs/heads/main.zip).
-- Ekstrak ikuzoteam-main.zip di direktori yang anda inginkan.
-- Buka XAMPP dan aktifkan/mulai Apache dan MySQL pada aplikasi XAMPP.
-- Buka terminal/CMD pada folder projek Ikuzo.
-- Masukkan perintah <b>composer install</b> pada terminal.
-- Copy file <b>"ikuzoteam-main\.env.example"</b>.
-- Rename file hasil duplikat <b>".env.example"</b>, menjadi <b>".env"</b>.
-- Kemudian ganti nilai <b>DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME dan DB_PASSWORD</b> sesuai phpmyadmin/MySQL anda. Jika anda menggunakan <b>XAMPP pada Windows</b>, anda hanya perlu mengganti <b>DB_DATABASE</b> saja. Environment default seperti ini.
-<img src="https://github.com/IkuzoTemera03/ikuzoteam/blob/main/documentation/images/env-default.jpg" alt="Hasil running Ikuzo">
-- Kembali ke terminal/CMD dan masukkan perintah <b>php artisan migrate --seed</b> pada terminal/CMD.
-- Kemudian masukkan perintah <b>php artisan serve</b> pada terminal/CMD.
-<img src="https://github.com/IkuzoTemera03/ikuzoteam/blob/main/documentation/images/hasil-php-artisan-serve.jpg" alt="Hasil running Ikuzo">
-- Setelah berhasil, buka browser dan masukkan <b>[http://127.0.0.1:8000](http://127.0.0.1:8000)</b>. Browser akan menampilkan halaman berikut
+## Persyaratan
+
+Sebelum memulai, pastikan sistem Anda telah memenuhi persyaratan berikut:
+
+- PHP minimal versi 8.0 atau yang lebih baru.
+- Composer terbaru.
+- XAMPP atau serupa (untuk menjalankan server Apache dan MySQL).
+
+## Langkah-langkah
+
+### 1. Unduh Source Code
+
+Unduh source code Ikuzo dari repository GitHub:
+
+- [Download source code Ikuzo](https://github.com/IkuzoTemera03/ikuzoteam/archive/refs/heads/main.zip)
+
+### 2. Ekstrak dan Persiapan
+
+Ekstrak file `main.zip` ke direktori yang Anda inginkan. Buka XAMPP dan pastikan Apache dan MySQL diaktifkan.
+
+### 3. Instalasi Dependencies
+
+Buka terminal atau command prompt (CMD), lalu arahkan ke direktori projek Ikuzo yang telah diekstrak, dan jalankan perintah berikut untuk menginstal semua dependensi PHP menggunakan Composer:
+
+```bash
+composer install
+```
+
+### 4. Konfigurasi Environment
+
+Salin file .env.example menjadi .env. Anda dapat melakukan ini dengan menjalankan perintah:
+
+```bash
+cp .env.example .env
+```
+
+Buka file .env yang baru dibuat dan sesuaikan pengaturan database berikut sesuai dengan konfigurasi MySQL Anda:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nama_database_anda
+DB_USERNAME=username_anda
+DB_PASSWORD=password_anda
+```
+
+### 5. Migrasi dan Seeder
+
+Jalankan migrasi database dan seeder untuk membangun struktur database dan mengisi data awal dengan perintah berikut:
+
+```bash
+php artisan migrate --seed
+```
+
+### 6. Menjalankan Aplikasi
+
+Untuk menjalankan aplikasi Ikuzo, jalankan perintah:
+
+```bash
+php artisan serve
+```
+
+
+### 7. Tampilan Awal
+
+Setelah berhasil menjalankan aplikasi, halaman beranda Ikuzo akan dapat diakses melalui browser, menampilkan tampilan awal seperti gambar di bawah ini:
+
 <img src="https://github.com/IkuzoTemera03/ikuzoteam/blob/main/documentation/images/tampilan-awal.jpg" alt="Hasil running Ikuzo">
