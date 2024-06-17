@@ -68,6 +68,6 @@ php artisan serve
 
 ### 7. Tampilan Awal
 
-Setelah berhasil menjalankan aplikasi, halaman beranda Ikuzo akan dapat diakses melalui browser, menampilkan tampilan awal seperti gambar di bawah ini:
+Setelah berhasil menjalankan aplikasi, halaman beranda Ikuzo akan dapat diakses melalui browser dengan url [http://127.0.0.1:8000](http://127.0.0.1:8000), menampilkan tampilan awal seperti gambar di bawah ini:
 
 <img src="https://github.com/IkuzoTemera03/ikuzoteam/blob/main/documentation/images/tampilan-awal.jpg" alt="Hasil running Ikuzo">
