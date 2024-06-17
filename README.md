@@ -80,7 +80,7 @@ Password : <b>IkuzoTemera</b>
 
 # Aplikasi Ikuzo Online
 
-Ikuzo dapat diakses secara online melalui link berikut ini [ikuzoteam.000webhostapp.com](https://ikuzoteam.000webhostapp.com/).
+Ikuzo dapat diakses secara online melalui link berikut ini [ikuzoteam.000webhostapp.com](https://ikuzoteam.000webhostapp.com/). 
 
 Berikut akun untuk login pada Ikuzo yang online (akun sama seperti di localhost). <br> <br>
 Email : <b>ikuzoteam@gmail.com</b> <br>
