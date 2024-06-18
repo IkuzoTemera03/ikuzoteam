@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="dicoding:email" content="teamikuzo03@gmail.com">
+    <meta name="dicoding:email" content="C624-PS079@dicoding.org">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
+    <link rel="shortcut icon" href="{{ asset("/images/ikuzo logo.png") }}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -333,7 +333,7 @@
     <nav class="navbar navbar-expand-lg ps-4 pe-4 pb-2 pt-2 w-100" style="background-color: #48CAE4">
         <div class="container-fluid">
             <a class="navbar-brand nav__item logo">
-                <img src="/images/ikuzo logo.png" alt="Logo Ikuzo" style="width: 120px;">
+                <img src="{{ asset("/images/ikuzo logo.png") }}" alt="Logo Ikuzo" style="width: 120px;">
             </a>
             <button class="navbar-toggler {{ $page == 'Login' || $page == 'Register' ? 'd-none' : '' }}" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
