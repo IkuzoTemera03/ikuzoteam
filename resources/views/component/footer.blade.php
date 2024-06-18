@@ -14,6 +14,11 @@
             padding-right: calc(var(--bs-gutter-x)* .5) !important;
         }
     }
+
+    .site-footer hr {
+        border-top-color: #bbb;
+        opacity: .5;
+    }
 </style>
 <footer class="site-footer">
     <div class="container p-0">
@@ -63,8 +68,8 @@
                 </div>
             </div>
         </div>
-        <hr>
     </div>
+    <hr class="container">
     <div class="container ps-0 pe-0 mt-1">
         <div class="row w-100">
             <div class="col-md-8 col-sm-6 col-xs-12">

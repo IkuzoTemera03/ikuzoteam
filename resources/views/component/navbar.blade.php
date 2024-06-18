@@ -74,11 +74,6 @@
             width: 90%;
         }
 
-        .site-footer hr {
-            border-top-color: #bbb;
-            opacity: .5
-        }
-
         .site-footer hr.small {
             margin: 20px 0
         }
