@@ -256,7 +256,7 @@
             <div class="header-explore">
                 <h1 class="text-light text-center fs-1 text-shadow-dark mb-5">
                     <strong>
-                        &mdash; {{ $page == '' || $page == 'Home' ? 'Tiket Penukaran Sampah' : $page }} Tiket Penukaran Sampah &mdash;
+                        &mdash; {{ $page == '' || $page == 'Home' ? 'Tiket Penukaran Sampah' : $page }} &mdash;
                     </strong>
                 </h1>
             </div>
