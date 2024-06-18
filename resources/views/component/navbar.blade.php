@@ -30,11 +30,6 @@
         }
 
         .navbar .container-fluid .collapse.show {
-            margin-top: 1.5rem !important;
-            margin-bottom: 1rem !important;
-        }
-
-        .navbar .container-fluid .collapse.show {
             margin-top: 0px;
             margin-bottom: 0px;
         }
@@ -260,6 +255,15 @@
             margin-left: -80px;
         }
 
+        .form-control[type="search"] {
+            background-color: #9ceeff;
+            border-color: #48CAE4;
+            color: white;
+        }
+        .form-control[type="search"]::placeholder{
+            color: white;
+        }
+
         @media (max-width:991px) {
             .profile ul.dropdown-menu {
                 margin-left: 0px;
@@ -276,6 +280,23 @@
             .profile.dropdown .dropdown-toggle i {
                 display: none !important;
             }
+
+            .profile ul.dropdown-menu {
+                margin-left: 0px;
+            }
+
+            form[role="search"] {
+                margin-left: 0px !important;
+            }
+
+            .navbar-nav.w-100 {
+                gap: 10px;
+            }
+
+            .navbar .container-fluid .collapse.show {
+                margin-top: 1.5rem !important;
+                margin-bottom: 1rem !important;
+            }
         }
 
         .nav-item.active {
@@ -283,10 +304,16 @@
             box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
             border-radius: 20px;
         }
-        .modal.fade.show{
-            display: flex!important;
-            align-items: center!important;
-            justify-content: center!important;
+
+        .modal.fade.show {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        .nav-item:hover {
+            background-color: #44bad1 !important;
+            border-radius: 20px;
         }
     </style>
     <title>Ikuzo {{ $page != '' ? '| ' . $page : '' }}</title>
@@ -306,7 +333,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul
                     class="navbar-nav w-100 me-auto mb-lg-0 d-flex justify-content-end text-light {{ $page == 'Login' || $page == 'Register' ? 'd-none' : '' }}">
-                    @if ($page != "Pengajuan Sampah")
+                    @if ($page != 'Pengajuan Sampah')
                         <form class="d-flex align-items-center" role="search" style="margin-right: 30px;">
                             <input class="form-control" style="height: 45px; min-width: 250px;" type="search"
                                 placeholder="Search tickets" aria-label="Search">
