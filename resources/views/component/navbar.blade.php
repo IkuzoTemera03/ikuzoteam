@@ -258,10 +258,10 @@
         .form-control[type="search"] {
             background-color: #9ceeff;
             border-color: #48CAE4;
-            color: white;
+            color: rgb(155, 155, 155);
         }
         .form-control[type="search"]::placeholder{
-            color: white;
+            color: rgb(155, 155, 155);
         }
 
         @media (max-width:991px) {
@@ -314,6 +314,16 @@
         .nav-item:hover {
             background-color: #44bad1 !important;
             border-radius: 20px;
+        }
+        .dropdown-menu{
+            background-color: #1993ac;
+        }
+        .dropdown-menu a.text-dark,
+        .dropdown-menu .dropdown-item{
+            color: white!important;
+        }
+        .dropdown-item:hover{
+            background-color: #24daff;
         }
     </style>
     <title>Ikuzo {{ $page != '' ? '| ' . $page : '' }}</title>
@@ -385,7 +395,7 @@
                             @if ($page != '')
                                 <form class="d-flex align-items-center" action="/logout" method="POST">
                                     @csrf
-                                    <li>
+                                    <li class="w-100">
                                         <button type="submit" class="dropdown-item d-flex align-items-center gap-3"
                                             aria-label="login">
                                             <i class="bi bi-box-arrow-left fs-4"></i>
@@ -403,6 +413,13 @@
                                 </li>
                             @endif
                             <li>
+                                <a class="dropdown-item d-flex align-items-center gap-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                    style="cursor: pointer">
+                                    <i class="bi bi-question-circle fs-4"></i>
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li class="mb-2 mt-2">
@@ -413,12 +430,7 @@
                                     <strong>{{ $page == '' || $page == 'Login' || $page == 'Register' ? '-' : auth()->user()->saldo }}</strong>
                                 </a>
                             </li>
-                            <li>
-                                <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                                    style="cursor: pointer">
-                                    About Us
-                                </a>
-                            </li>
+                            
                         </ul>
                     </li>
                 </ul>
