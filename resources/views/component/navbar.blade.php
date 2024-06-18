@@ -283,6 +283,11 @@
             box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
             border-radius: 20px;
         }
+        .modal.fade.show{
+            display: flex!important;
+            align-items: center!important;
+            justify-content: center!important;
+        }
     </style>
     <title>Ikuzo {{ $page != '' ? '| ' . $page : '' }}</title>
 </head>
