@@ -168,6 +168,18 @@
                 padding: 1em;
             }
         }
+        .carousel-caption h5 span.text-shadow-dark{
+            color: #48CAE4;
+        }
+        .carousel-caption h5 span.text-shadow-dark:hover{
+            color: #44bad1;
+        }
+        .carousel-caption a.btn.btn-primary{
+            background-color: #48CAE4;
+        }
+        .carousel-caption a.btn.btn-primary:hover{
+            background-color: #44bad1;
+        }
     </style>
     <link rel="stylesheet" href="{{ asset('css/not-found.css') }}">
 @endsection
