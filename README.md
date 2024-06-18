@@ -85,3 +85,6 @@ Ikuzo dapat diakses secara online melalui link berikut ini [ikuzoteam.000webhost
 Berikut akun untuk login pada Ikuzo yang online (akun sama seperti di localhost). <br> <br>
 Email : <b>ikuzoteam@gmail.com</b> <br>
 Password : <b>password</b>
+
+# Note Ikuzo
+<p style='font-size:35px;'>Ikuzo online hanya dapat diakses sampai <b>6/16/2025</b>.</p>
