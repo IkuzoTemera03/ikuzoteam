@@ -4,7 +4,7 @@ Projek Ikuzo adalah sebuah aplikasi berbasis web yang dibangun dengan menggunaka
 
 ## Persyaratan
 
-Sebelum memulai, pastikan Anda telah menginstall beberapa software berikut ini:
+Sebelum memulai, pastikan Anda telah menginstall beberapa requirement berikut ini:
 
 - PHP minimal versi 8.0 atau yang lebih baru.
 - [Composer](https://getcomposer.org/) terbaru.
