@@ -16,7 +16,7 @@
     }
 </style>
 <footer class="site-footer">
-    <div class="container p-0">
+    <div class="container p-0 mb-3">
         <div class="row-footer">
             <div class="col-sm-12 col-md-6">
                 <h6>About Ikuzo</h6>
