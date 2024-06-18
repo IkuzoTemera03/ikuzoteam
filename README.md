@@ -87,4 +87,4 @@ Email : <b>ikuzoteam@gmail.com</b> <br>
 Password : <b>password</b>
 
 # Note Ikuzo
-<p style='font-size:35px;'>Ikuzo online hanya dapat diakses sampai <b>6/16/2025</b>.</p>
+<h1>Ikuzo online hanya dapat diakses sampai <b>6/16/2025</b>.</h1>
